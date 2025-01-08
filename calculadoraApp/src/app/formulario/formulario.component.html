@@ -1,0 +1,9 @@
+<div class="mb-3 d-flex align-items-center">
+    <label for="numero1" class="form-label me-2 text-nowrap">Numero:  </label>
+    <input id="numero1" type="number" class="form-control text-center" [(ngModel)]="numero1" autocomplete="off"/> 
+</div>
+<div class="mb-3 d-flex align-items-center">
+    <label for="numero2" class="form-label me-2 text-nowrap"> Numero: </label>
+    <input id="numero2" type="number" class="form-control text-center" [(ngModel)]="numero2" autocomplete="off"/>    
+</div>
+<button class="btn btn-primary mb-3 w-100" (click)="calcular()"> Calcular </button>
